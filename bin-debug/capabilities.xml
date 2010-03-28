@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device Name="HTC TouchPro model1">
+<Manufacturer Name="HTC"/>
+<Model Name="Touch Pro"/>
+<Platform Name="WM6 Professional" Vendor="Microsoft" Version="6.1"/>
+<Sensors Rotation="UIN_OFF"/>
+<Screens>
+<Screen Height="480" Name="Opened_Front_UOUT_S_FRONT" Width="640" id="1"/>
+<Screen Height="640" Name="Closed_Front_UOUT_S_FRONT" Width="480" id="2"/>
+</Screens>
+</Device>
+

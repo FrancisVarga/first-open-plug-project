@@ -1,0 +1,9 @@
+[submodule "libs/robo"]
+	path = libs/robo
+	url = git://github.com/darscan/robotlegs-framework.git
+[submodule "libs/swift"]
+	path = libs/swift
+	url = git://github.com/darscan/SwiftSuspenders.git
+[submodule "libs/logger"]
+	path = libs/logger
+	url = git://github.com/FrancisVarga/smallLogger.git

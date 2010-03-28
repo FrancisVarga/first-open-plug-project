@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">airglobal.swc</AS3Classpath>
+<AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">src</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">libs/ElipsFlexFramework.swc</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">libs/ElipsFlexServices.swc</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">libs/fluint.swc</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">libs/json.swc</AS3Classpath>
+<AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">libs/logger/src</AS3Classpath>
+</AS3Classpath>

@@ -1,0 +1,19 @@
+<project name="open-plug" default="copy_swc">
+
+	<property file="openplug.properties" />
+
+	<!-- ================================= 
+          target: copy_swc
+    ================================= -->
+	<target name="copy_swc" description="Copy SWC files to the current project libs folder">
+		<copy todir="libs/">
+			<fileset dir="${open_plug.flex_framework_path}">
+				<include name="${open_plug.elipsFlexFramework}" />
+				<include name="${open_plug.elipsFlexServices}" />
+				<include name="${open_plug.fluint}" />
+				<include name="${open_plug.json}" />
+			</fileset>
+		</copy>
+	</target>
+
+</project>

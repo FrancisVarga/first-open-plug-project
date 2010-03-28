@@ -1,0 +1,24 @@
+-air
+-appname
+RSSReader
+-sdk
+../ElipsFlexSDK
+-opts
+-locale en_US
+-output
+D:/workspace/flexbuilder3/RSSReader/extensions
+-mxml
+D:/workspace/flexbuilder3/RSSReader/src/RSSReader.mxml
+-srcpath
+D:/workspace/flexbuilder3/RSSReader/src
+-libfile
+C:/OpenPlug/My Environments/ELIPS_3_0_1_235/ElipsFlexSDK/frameworks/projects/ElipsAsCore/bin/ElipsAsCore.swc
+-libfile
+C:/OpenPlug/My Environments/ELIPS_3_0_1_235/ElipsFlexSDK/frameworks/projects/ElipsFlashPlayer/bin/ElipsFlashPlayer.swc
+-libfile
+C:/OpenPlug/My Environments/ELIPS_3_0_1_235/ElipsFlexSDK/frameworks/projects/ElipsFlexFramework/bin/ElipsFlexFramework.swc
+-libfile
+C:/OpenPlug/My Environments/ELIPS_3_0_1_235/ElipsFlexSDK/frameworks/projects/ElipsFlexServices/bin/ElipsFlexServices.swc
+-extension
+-extdir
+C:/OpenPlug/My Environments/ELIPS_3_0_1_235/Src/native_mapping
