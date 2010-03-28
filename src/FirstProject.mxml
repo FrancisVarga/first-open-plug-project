@@ -15,7 +15,9 @@
 					
 			private function loadURL(event : TouchEvent):void{
 				trace("Clicked");
-				imageLoader.source = "http://fdt.powerflasher.de/media/supported_by_FDT_210x129px.png";
+				var tempImage : Image = new Image();
+				tempImage.source = "http://varga-multimedia.com/wp-content/uploads/2010/03/fdt-evangelist-rounded.png";
+				imgContainer.addChild(tempImage);
 			}
 			
 			private function onClick_clearBtn(event : TouchEvent):void{
@@ -33,8 +35,10 @@
 			<mx:Button id="loadURLBtn" width="100%" height="20"  label="Load" touchTap="loadURL(event)" />
 			<mx:Button id="clearBtn" width="100%" height="20" label="Clear" touchTap="onClick_clearBtn(event)" />	
 		</mx:HBox>
-			
-		<mx:Image id="imageLoader" source="http://fdt.powerflasher.de/media/supported_by_FDT_210x129px.png" />
+		
+		<mx:HBox id="imgContainer" width="100%" height="100%">
+			<mx:Image id="imageLoader" source="http://fdt.powerflasher.de/media/supported_by_FDT_210x129px.png" />
+		</mx:HBox>
 	
 	</mx:VBox>
 	
